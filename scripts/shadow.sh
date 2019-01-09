@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-sed -i 's/DataFile=\/etc\/mentohust/\/root/1.mpf/g' /etc/init.d/mentohust
+sed -i 's/DataFile=\/etc\/mentohust/root\/1.mpf/g' /etc/init.d/mentohust
 
 echo 'Go!'
 echo '==> 创建临时目录 /tmp/geewan'
